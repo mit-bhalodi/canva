@@ -56,7 +56,7 @@
                         (e = e
                             .replace(/url\((.*)\)/, "$1")
                             .replace(/["']/gi, "")
-                            .replace(/\.jpg/, "_color.jpg")),
+                            .replace(/_blurred.png/, ".png")),
                         $(c).attr("src", e),
                         (e = $(
                             '\x3cdiv style\x3d"position:absolute;height:0;width:0;overflow:hidden;"\x3e\x3c/div\x3e'
